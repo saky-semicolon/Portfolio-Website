@@ -130,13 +130,221 @@ main {
     margin-top: 30px;
 }
 
-.about .info-title{
+.about .info-title {
     color: #474747;
     font-size: 20px;
 }
 
-.info-description{
+.info-description {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* What I do Section */
+.what-i-do {
+    text-align: center;
+}
+
+.section-title-skills {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description-skills {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.skill {
+    width: 267px;
+    height: 377px;
+    left: 230px;
+    top: 1865px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.skill-img {
+    width: 44px;
+    height: 44px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 193px;
+}
+
+.skill-desk {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 33px;
+}
+
+.skill-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Summary Section Styles */
+.summary-resume {
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.summary-resume-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 113px;
+}
+
+.summary-container {
+    display: flex;
+    gap: 24px;
+}
+
+.summary {
+    text-align: left;
+}
+
+.summary-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.summary-desk {
+    width: 511px;
+    height: 175px;
+}
+
+.sum-tilte {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.sum-time {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.sum-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.summary-line {
+    margin-bottom: 30px;
+    border: 1px solid #D1D1D1;
+}
+
+.btn-summary {
+    width: 200px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    height: 580px;
+    background-color: #FFF8F3;
+    /* padding: 30px 50px;   up-down left-right */
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 117px;
+    margin-left: 242px;
+    margin-right: 218px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-top: 92px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    margin-top: 30px;
+}
+
+.follow {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+
+.submit {
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom: 168px;
+}
+
+.input-1 {
+    margin-top: 28px;
+    width: 400px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.input-2 {
+    margin-top: 24px;
+    width: 400px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.input-3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 400px;
+    height: 130px;
+    background: #FFFFFF;
+    border-radius: 5px;
 }
